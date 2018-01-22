@@ -1,0 +1,24 @@
+#include <QGuiApplication>
+#include <QQuickView>
+
+#include <QQmlContext>
+#include "./cpp/context.h"
+
+int main(int argc, char *argv[])
+{
+    QGuiApplication a(argc, argv);
+
+    Contexte* myApp= new Contexte;
+
+    QQuickView view;
+    view.resize(400, 800);
+    view.setResizeMode(QQuickView::SizeRootObjectToView);
+
+    QQmlContext* ctx = view.rootContext();
+    myApp->setContext( ctx );
+
+    view.setSource(QUrl("qrc:///qml/main.qml"));
+    view.showFullScreen();
+
+    return a.exec();
+}

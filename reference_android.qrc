@@ -1,0 +1,24 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qml/main.qml</file>
+        <file>qml/Position.qml</file>
+        <file>qml/Echequier.qml</file>
+        <file>qml/Case.qml</file>
+        <file>img/red.jpg</file>
+        <file>img/white.jpg</file>
+        <file>img/BlackQueen.png</file>
+        <file>img/loading.gif</file>
+        <file>img/BlueSquareButton.png</file>
+        <file>img/media-play-symbol.png</file>
+        <file>qml/Bouton.qml</file>
+        <file>img/media-fast-forward-symbol.png</file>
+        <file>img/media-fast-rewind-symbol.png</file>
+        <file>img/media-forward-symbol.png</file>
+        <file>img/media-pause-symbol.png</file>
+        <file>img/media-rewind-symbol.png</file>
+        <file>img/echiquier.png</file>
+        <file>img/Stats.png</file>
+        <file>img/GreySquareButton.png</file>
+        <file>img/BlackQueenIcon.png</file>
+    </qresource>
+</RCC>
